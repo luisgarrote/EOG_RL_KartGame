@@ -7,7 +7,7 @@ EOG Dataset created for the paper: [A Reinforcement Learning assisted Eye-driven
 
 ## Source code
 
-Functions necessary to train a CNN using our dataset and to the CNN model when evaluating some type of EOG input are in folder **scripts**.
+Functions necessary to train a CNN using our dataset and to the CNN model when evaluating some type of EOG input are in folder [**scripts**](/scripts).
 
 Function cnnTrain_regulateBalance.py fetches RGB images from a set folder and trains a CNN model, which is stored in another folder.
 
@@ -24,8 +24,18 @@ sklearn
 imageio
 
 ## Data structure
+Dataset samples:
+<p align="center">
+  <img src="./RGB_EOG_Dataset/set1_17_0_sample.png" alt="set1_17_0_sample.png"/>
+  <img src="./RGB_EOG_Dataset/set1_7_2_sample.png" alt="set1_7_2_sample.png"/>
+  <img src="./RGB_EOG_Dataset/set1_1_2_sample.png" alt="set1_1_2_sample.png"/>
+  <img src="./RGB_EOG_Dataset/set2_640_0_sample.png" alt="set2_640_0_sample.png"/>
+  <img src="./RGB_EOG_Dataset/set1_210_8_sample.png" alt="set1_210_8_sample.png"/>
+  <img src="./RGB_EOG_Dataset/set6_35_7_sample.png" alt="set6_35_7_sample.png"/>
+</p>
 
-Dataset is in folder **RGB_EOG_Dataset**, divided into 24 unequal sets. All .png images are named in the format
+
+Dataset is in folder [**RGB_EOG_Dataset**](/RGB_EOG_Dataset/RGB_EOG_dataset.rar), divided into 24 unequal sets. All .png images are named in the format
 setX_Y_C.png
 where X is the set number, Y the sample number on the set and C the sample class (0-8 in the images, corresponding to 1-9 in the paper).
 The data structure is:
@@ -38,6 +48,8 @@ RGB_EOG_Dataset
     
     |---...
 ```
+
+
 ## Citation
 
 If you think this dataset is useful for your research, please consider citing:
