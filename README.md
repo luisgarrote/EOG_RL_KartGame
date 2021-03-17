@@ -7,7 +7,7 @@ EOG Dataset created for the paper: [A Reinforcement Learning assisted Eye-driven
 
 ## Source code
 
-Functions necessary to train a CNN using our dataset and to the CNN model when evaluating some type of EOG input are in folder [**scripts**](/scripts).
+Functions necessary to train a CNN using our dataset and to load the CNN model when evaluating some type of EOG input are in folder [**scripts**](/scripts).
 
 Function cnnTrain_regulateBalance.py fetches RGB images from a set folder and trains a CNN model, which is stored in another folder.
 
@@ -17,7 +17,8 @@ allowing a user to send the function a string with the RGB information from one 
 
 
 ## Requirements
-We recommend python3.6.
+We recommend:
+- Python 3.6
 - Pytorch 1.2.0
 - CUDA 10.1
 - sklearn
