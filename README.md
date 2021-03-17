@@ -18,10 +18,10 @@ allowing a user to send the function a string with the RGB information from one 
 
 ## Requirements
 We recommend python3.6.
-Pytorch 1.2.0
-CUDA 10.1
-sklearn
-imageio
+-Pytorch 1.2.0
+-CUDA 10.1
+-sklearn
+-imageio
 
 ## Data structure
 Dataset samples:
