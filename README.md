@@ -49,7 +49,18 @@ RGB_EOG_Dataset
     
     |---...
 ```
-
+Class Labels:
+| Event Class | Originated by |
+|-------------|---------------|
+| 1           |   Null Event             |
+| 2           |    "Strong" leftward saccade             |
+| 3           |    "Medium" leftward saccade            |
+| 4           |    "Weak" leftward saccade            |
+| 5           |     "Weak" rightward saccade          |
+| 6           |     "Medium" rightward saccade          |
+| 7           |     "Strong" rightward saccade          |
+| 8           |       Single Blink          |
+| 9           |      Double Blink         |
 
 ## Citation
 
@@ -64,4 +75,5 @@ If you think this dataset is useful for your research, please consider citing:
   volume={},
   number={},
   pages={},
-  doi={}}
+  doi={10.1109/ACCESS.2021.3068055}}
+ 
