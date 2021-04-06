@@ -52,15 +52,15 @@ RGB_EOG_Dataset
 Class Labels:
 | Event Class | Originated by |
 |-------------|---------------|
-| 1           |   Null Event             |
-| 2           |    "Strong" leftward saccade             |
-| 3           |    "Medium" leftward saccade            |
-| 4           |    "Weak" leftward saccade            |
-| 5           |     "Weak" rightward saccade          |
-| 6           |     "Medium" rightward saccade          |
-| 7           |     "Strong" rightward saccade          |
-| 8           |       Single Blink          |
-| 9           |      Double Blink         |
+| 0           |   Null Event             |
+| 1           |    "Strong" leftward saccade             |
+| 2           |    "Medium" leftward saccade            |
+| 3           |    "Weak" leftward saccade            |
+| 4           |     "Weak" rightward saccade          |
+| 5           |     "Medium" rightward saccade          |
+| 6           |     "Strong" rightward saccade          |
+| 7           |       Single Blink          |
+| 8           |      Double Blink         |
 
 ## Citation
 
