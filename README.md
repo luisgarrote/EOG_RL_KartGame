@@ -1,5 +1,6 @@
 # A Reinforcement Learning assisted Eye-driven Computer Game Employing a Decision Tree-based Approach and CNN Classification
-EOG Dataset created for the paper: [A Reinforcement Learning assisted Eye-driven Computer Game Employing a Decision Tree-based Approach and CNN Classification](XXX)
+EOG Dataset created for the paper: [A Reinforcement Learning assisted Eye-driven Computer Game Employing a Decision Tree-based Approach and CNN Classification](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9382978)
+Parts of this dataset were also used to train the models in [Measuring the impact of reinforcement learning on an electrooculography-only computer game](https://ieeexplore.ieee.org/abstract/document/8401359/) and [Reinforcement learning motion planning for an EOG-centered robot assisted navigation in a virtual environment](https://ieeexplore.ieee.org/abstract/document/8956348/).
 
 
 
